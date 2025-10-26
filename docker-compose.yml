@@ -58,6 +58,19 @@ services:
     depends_on:
       - mysql
 
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    container_name: rabbitmq
+    ports:
+      - "5672:5672"   # For apps (Laravel workers)
+      - "15672:15672" # For management dashboard
+    environment:
+      RABBITMQ_DEFAULT_USER: laravel
+      RABBITMQ_DEFAULT_PASS: laravelpassword
+    networks:
+      - app-network
+
 volumes:
   db_data:
 

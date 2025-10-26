@@ -384,6 +384,21 @@
                 <div class="tech-icon">🗄️</div>
                 <div class="tech-name">PHPMYADMIN</div>
             </a>
+
+            <a href="http://localhost:15672" target="_blank" class="tech-item" rel="noopener noreferrer">
+                <div class="tech-icon">🐰</div>
+                <div class="tech-name">RABBITMQ</div>
+            </a>
+
+            <a href="https://www.docker.com" target="_blank" class="tech-item" rel="noopener noreferrer">
+                <div class="tech-icon">🐳</div>
+                <div class="tech-name">DOCKER</div>
+            </a>
+
+            <a href="http://localhost:8080/telescope" target="_blank" class="tech-item" rel="noopener noreferrer">
+                <div class="tech-icon">🔭</div>
+                <div class="tech-name">TELESCOPE</div>
+            </a>
         </div>
 
         <!-- Call to Action -->
